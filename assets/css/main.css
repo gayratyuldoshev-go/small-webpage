@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    max-width: 950px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -33,36 +33,12 @@ body {
     list-style-type: none;
 }
 
-.navbar-item {
-    position: relative;
-    z-index: 1;
-}
-
 .navbar-link {
-    display: block;
     text-decoration: none;
     color: #999;
     font-weight: 700;
     font-size: 13px;
     padding: 15px 25px;
-    text-align: center;
-}
-
-.navbar-link::after {
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    content: "";
-    background-color: transparent;
-    transition: background-color 0.3s ease;
-    
-}
-
-.navbar-link:hover::after {
-    background-color: #999;
 }
 
 .search {
@@ -87,13 +63,7 @@ body {
     color: #fff;
     padding: 7px 15px;
     font-size: 12px;    
-    background-color: rgb(255, 23, 23);
-    opacity: 0.6;
-    transition: 0.3s;
-}
-
-.youtube:hover {
-    opacity: 1;
+    background-color: rgb(255, 78, 78);
 }
 
 .left-side__header {
@@ -103,7 +73,7 @@ body {
 
 .left-side__text {
     font-size: 13px;
-    max-width: 300px;
+    max-width: 400px;
     border-left: 3px solid #777;
     padding-left: 40px;
     color: #999;
@@ -172,7 +142,7 @@ body {
     position: relative;
     z-index: 1;
     font-size: 12px;
-    padding-left: 34px;
+    padding-left: 40px;
     font-weight: 700;
     text-decoration: none;  
     color: rgb(255, 0, 0);
@@ -187,13 +157,6 @@ body {
     content: "";
     width: 30px;
     height: 2px;
-    background-color: rgb(255, 0, 0);
-    transition-property: width;
-    transition: 0.3s;
-}
-
-.learn-more:hover::before {
-    width: 40px;
     background-color: rgb(255, 0, 0);
 }
 
@@ -233,15 +196,8 @@ body {
     color: #fff;
     padding: 5px 10px;
     text-decoration: none;
-    background-color: rgb(255, 10, 10);
-    opacity: 0.6;
-    transition: 0.3s;
+    background-color: rgb(255, 78, 78);
 }
-
-.buy-now:hover {
-    opacity: 1;
-}
-
 
 .last-section {
     background-image: url("../img/runners.jpg");
@@ -277,11 +233,5 @@ body {
     color: #fff;
     padding: 5px 10px;
     text-decoration: none;
-    background-color: rgb(253, 12, 12);
-    opacity: 0.9;
-    transition: 0.3s;
-}
-
-.explore:hover {
-    opacity: 1;
+    background-color: rgb(255, 78, 78);
 }
