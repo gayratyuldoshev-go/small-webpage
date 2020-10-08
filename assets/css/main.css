@@ -1,0 +1,247 @@
+/* @font-face {
+    font-family: "Rubic";
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Rubik-Light.woff2") format("woff2"),
+        url("../fonts/Rubik-Light.woff") format("woff");
+
+} */
+
+body {
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.top-link {
+    margin-right: auto;
+}
+
+.logo-img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding-left: 0;
+    margin-left: auto;
+}
+
+.navbar-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #999;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 15px 25px;
+}
+
+.search {
+    width: 162px;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid #666;
+}
+
+.search::placeholder {
+    color: #777;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.youtube {
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 12px;    
+    background-color: rgb(255, 78, 78);
+}
+
+.left-side__header {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.left-side__text {
+    font-size: 13px;
+    max-width: 400px;
+    border-left: 3px solid #777;
+    padding-left: 40px;
+    color: #999;
+    margin-bottom: 50px;
+}
+
+.section {
+    padding: 170px 0;
+    background-image: url("../img/watches.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: calc(50% + 700px) center;
+}
+
+
+.main-line {
+    display: block;
+    margin-top: 0;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.first-article {
+    max-width: 300px;
+    padding-right: 50px;
+}
+
+.middle-article {
+    max-width: 300px;
+    padding-right: 50px;
+}
+
+.last-article {
+    max-width: 300px;
+    padding-right: 0;
+}
+
+.middle-header {
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.middle-text {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.middle-text-link {
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.middle-dot {
+    display: block;
+    font-size: 30px;
+    color: rgb(186, 186, 186);
+    margin-top: 0;
+}
+
+.learn-more {
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
+    padding-left: 40px;
+    font-weight: 700;
+    text-decoration: none;  
+    color: rgb(255, 0, 0);
+    padding-top: 40px;
+}
+
+.learn-more::before {
+    position: absolute;
+    z-index: 1;
+    top: 85%;
+    left: 0;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: rgb(255, 0, 0);
+}
+
+.middle-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advertisement {
+    max-width: 300px;
+}
+
+.ad-img {
+    width: 420px;
+    height: 550px;
+    padding-bottom: 30px;
+}
+
+.ad-header {
+    padding-top: 70px;
+    font-size: 35px;
+    color: rgb(56, 56, 56);
+    padding-bottom: 30px;
+}
+
+.ad-text {
+    font-size: 13px;
+    max-width: 400px;
+    border-left: 3px solid #777;
+    padding-left: 40px;
+    color: #999;
+    margin-bottom: 50px;
+}
+
+.buy-now {
+    font-size: 12px;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: rgb(255, 78, 78);
+}
+
+.last-section {
+    background-image: url("../img/runners.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    display: flex;
+}
+
+.last-div {
+    max-width: 500px;
+    padding-left: 590px;    
+    padding-top: 160px;
+}
+
+.last-header {
+    font-size: 40px;
+    color: #fff;
+}
+
+.last-ad-text {
+    font-size: 13px;
+    max-width: 400px;
+    border-left: 3px solid #777;
+    padding-left: 40px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.explore {
+    font-size: 12px;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: rgb(255, 78, 78);
+}
