@@ -36,6 +36,8 @@ body {
 .navbar-item {
     position: relative;
     z-index: 1;
+    margin-right: 35px;
+    padding-bottom: 10px;
 }
 
 .navbar-link {
@@ -44,7 +46,6 @@ body {
     color: #999;
     font-weight: 700;
     font-size: 13px;
-    padding: 15px 25px;
     text-align: center;
 }
 
@@ -162,38 +163,61 @@ body {
 }
 
 .middle-dot {
+    position: relative;
+    z-index: 1;
+    font-size: 32px;
+    color: #999;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.middle-dot::before {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 70%;
     display: block;
-    font-size: 30px;
-    color: rgb(186, 186, 186);
-    margin-top: 0;
+    width: 4px;
+    height: 4px;
+    background-color: #999;
+    border-radius: 50%;
+    content: "";
+}
+
+.middle-dot::after {
+    position: absolute;
+    z-index: 1;
+    left: 85%;
+    top: 70%;
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: #999;
+    border-radius: 50%;
+    content: "";
 }
 
 .learn-more {
-    position: relative;
-    z-index: 1;
     font-size: 12px;
-    padding-left: 34px;
     font-weight: 700;
     text-decoration: none;  
     color: rgb(255, 0, 0);
-    padding-top: 40px;
+    display: flex;
 }
 
 .learn-more::before {
-    position: absolute;
-    z-index: 1;
-    top: 85%;
-    left: 0;
+    display: block;
     content: "";
     width: 30px;
     height: 2px;
     background-color: rgb(255, 0, 0);
-    transition-property: width;
-    transition: 0.3s;
+    transition: width 0.3s ease;
+    margin-right: 10px;
+    margin-top: 6px;
 }
 
 .learn-more:hover::before {
-    width: 40px;
+    width: 45px;
     background-color: rgb(255, 0, 0);
 }
 
@@ -209,11 +233,12 @@ body {
 .ad-img {
     width: 420px;
     height: 550px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    padding-top: 90px;
 }
 
 .ad-header {
-    padding-top: 70px;
+    padding-top: 160px;
     font-size: 35px;
     color: rgb(56, 56, 56);
     padding-bottom: 30px;
