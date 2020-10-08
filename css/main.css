@@ -20,8 +20,8 @@ body {
 
 .logo-img {
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 50px;
     padding-left: 0;
     margin-left: auto;
 }
@@ -68,7 +68,7 @@ body {
 
 .search {
     width: 162px;
-    margin-left: 20px;
+    margin-left: 10px;
     border: none;
     border-bottom: 1px solid #666;
 }
